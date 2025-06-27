@@ -1,0 +1,21 @@
+body {
+    padding-top: 56px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    transition: box-shadow .3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+footer.bg-dark a {
+    color: #fff;
+}
+
+footer.bg-dark a:hover {
+    color: #ccc;
+    text-decoration: none;
+}
